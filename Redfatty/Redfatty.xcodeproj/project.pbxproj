@@ -14,6 +14,23 @@
 		CE90C7111D59664D00B984EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90C7101D59664D00B984EC /* Assets.xcassets */; };
 		CE90C7141D59664D00B984EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C7121D59664D00B984EC /* LaunchScreen.storyboard */; };
 		CE90C71F1D59664D00B984EC /* RedfattyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C71E1D59664D00B984EC /* RedfattyUITests.swift */; };
+		CE90C74C1D59696F00B984EC /* Account.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C72B1D59696F00B984EC /* Account.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C74D1D59696F00B984EC /* Chat.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C72D1D59696F00B984EC /* Chat.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C74E1D59696F00B984EC /* Comment.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C72F1D59696F00B984EC /* Comment.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C74F1D59696F00B984EC /* Community.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7311D59696F00B984EC /* Community.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7501D59696F00B984EC /* Contact.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7331D59696F00B984EC /* Contact.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7511D59696F00B984EC /* Datapublishing.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7351D59696F00B984EC /* Datapublishing.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7521D59696F00B984EC /* Login.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7371D59696F00B984EC /* Login.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7531D59696F00B984EC /* Netdisk.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7391D59696F00B984EC /* Netdisk.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7541D59696F00B984EC /* News.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C73B1D59696F00B984EC /* News.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7551D59696F00B984EC /* Notification.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C73D1D59696F00B984EC /* Notification.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7561D59696F00B984EC /* Oss.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C73F1D59696F00B984EC /* Oss.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7571D59696F00B984EC /* Payment.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7411D59696F00B984EC /* Payment.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7581D59696F00B984EC /* Platform.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7431D59696F00B984EC /* Platform.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C7591D59696F00B984EC /* Result.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7451D59696F00B984EC /* Result.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C75A1D59696F00B984EC /* Social.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7471D59696F00B984EC /* Social.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7491D59696F00B984EC /* Streaming.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE90C75C1D59696F00B984EC /* Wallet.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C74B1D59696F00B984EC /* Wallet.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +56,42 @@
 		CE90C71A1D59664D00B984EC /* RedfattyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedfattyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90C71E1D59664D00B984EC /* RedfattyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedfattyUITests.swift; sourceTree = "<group>"; };
 		CE90C7201D59664D00B984EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE90C72A1D59696F00B984EC /* Account.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.pbobjc.h; sourceTree = "<group>"; };
+		CE90C72B1D59696F00B984EC /* Account.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.pbobjc.m; sourceTree = "<group>"; };
+		CE90C72C1D59696F00B984EC /* Chat.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chat.pbobjc.h; sourceTree = "<group>"; };
+		CE90C72D1D59696F00B984EC /* Chat.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chat.pbobjc.m; sourceTree = "<group>"; };
+		CE90C72E1D59696F00B984EC /* Comment.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.pbobjc.h; sourceTree = "<group>"; };
+		CE90C72F1D59696F00B984EC /* Comment.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7301D59696F00B984EC /* Community.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Community.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7311D59696F00B984EC /* Community.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Community.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7321D59696F00B984EC /* Contact.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7331D59696F00B984EC /* Contact.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7341D59696F00B984EC /* Datapublishing.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datapublishing.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7351D59696F00B984EC /* Datapublishing.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datapublishing.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7361D59696F00B984EC /* Login.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7371D59696F00B984EC /* Login.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7381D59696F00B984EC /* Netdisk.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Netdisk.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7391D59696F00B984EC /* Netdisk.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Netdisk.pbobjc.m; sourceTree = "<group>"; };
+		CE90C73A1D59696F00B984EC /* News.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.pbobjc.h; sourceTree = "<group>"; };
+		CE90C73B1D59696F00B984EC /* News.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.pbobjc.m; sourceTree = "<group>"; };
+		CE90C73C1D59696F00B984EC /* Notification.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.pbobjc.h; sourceTree = "<group>"; };
+		CE90C73D1D59696F00B984EC /* Notification.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.pbobjc.m; sourceTree = "<group>"; };
+		CE90C73E1D59696F00B984EC /* Oss.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oss.pbobjc.h; sourceTree = "<group>"; };
+		CE90C73F1D59696F00B984EC /* Oss.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oss.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7401D59696F00B984EC /* Payment.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7411D59696F00B984EC /* Payment.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7421D59696F00B984EC /* Platform.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7431D59696F00B984EC /* Platform.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7441D59696F00B984EC /* Result.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7451D59696F00B984EC /* Result.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7461D59696F00B984EC /* Social.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Social.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7471D59696F00B984EC /* Social.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Social.pbobjc.m; sourceTree = "<group>"; };
+		CE90C7481D59696F00B984EC /* Streaming.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Streaming.pbobjc.h; sourceTree = "<group>"; };
+		CE90C7491D59696F00B984EC /* Streaming.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Streaming.pbobjc.m; sourceTree = "<group>"; };
+		CE90C74A1D59696F00B984EC /* Wallet.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallet.pbobjc.h; sourceTree = "<group>"; };
+		CE90C74B1D59696F00B984EC /* Wallet.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.pbobjc.m; sourceTree = "<group>"; };
+		CE90C75D1D596A8C00B984EC /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		CE90C75E1D596B8300B984EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F286D64E62B53C4803EB9389 /* Pods-Redfatty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redfatty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redfatty/Pods-Redfatty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,8 +154,11 @@
 		CE90C7081D59664D00B984EC /* Redfatty */ = {
 			isa = PBXGroup;
 			children = (
+				CE90C7291D59696F00B984EC /* PbModel */,
 				CE90C7091D59664D00B984EC /* AppDelegate.swift */,
 				CE90C70B1D59664D00B984EC /* ViewController.swift */,
+				CE90C75D1D596A8C00B984EC /* BridgeHeader.h */,
+				CE90C75E1D596B8300B984EC /* PrefixHeader.pch */,
 				CE90C70D1D59664D00B984EC /* Main.storyboard */,
 				CE90C7101D59664D00B984EC /* Assets.xcassets */,
 				CE90C7121D59664D00B984EC /* LaunchScreen.storyboard */,
@@ -118,6 +174,47 @@
 				CE90C7201D59664D00B984EC /* Info.plist */,
 			);
 			path = RedfattyUITests;
+			sourceTree = "<group>";
+		};
+		CE90C7291D59696F00B984EC /* PbModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE90C72A1D59696F00B984EC /* Account.pbobjc.h */,
+				CE90C72B1D59696F00B984EC /* Account.pbobjc.m */,
+				CE90C72C1D59696F00B984EC /* Chat.pbobjc.h */,
+				CE90C72D1D59696F00B984EC /* Chat.pbobjc.m */,
+				CE90C72E1D59696F00B984EC /* Comment.pbobjc.h */,
+				CE90C72F1D59696F00B984EC /* Comment.pbobjc.m */,
+				CE90C7301D59696F00B984EC /* Community.pbobjc.h */,
+				CE90C7311D59696F00B984EC /* Community.pbobjc.m */,
+				CE90C7321D59696F00B984EC /* Contact.pbobjc.h */,
+				CE90C7331D59696F00B984EC /* Contact.pbobjc.m */,
+				CE90C7341D59696F00B984EC /* Datapublishing.pbobjc.h */,
+				CE90C7351D59696F00B984EC /* Datapublishing.pbobjc.m */,
+				CE90C7361D59696F00B984EC /* Login.pbobjc.h */,
+				CE90C7371D59696F00B984EC /* Login.pbobjc.m */,
+				CE90C7381D59696F00B984EC /* Netdisk.pbobjc.h */,
+				CE90C7391D59696F00B984EC /* Netdisk.pbobjc.m */,
+				CE90C73A1D59696F00B984EC /* News.pbobjc.h */,
+				CE90C73B1D59696F00B984EC /* News.pbobjc.m */,
+				CE90C73C1D59696F00B984EC /* Notification.pbobjc.h */,
+				CE90C73D1D59696F00B984EC /* Notification.pbobjc.m */,
+				CE90C73E1D59696F00B984EC /* Oss.pbobjc.h */,
+				CE90C73F1D59696F00B984EC /* Oss.pbobjc.m */,
+				CE90C7401D59696F00B984EC /* Payment.pbobjc.h */,
+				CE90C7411D59696F00B984EC /* Payment.pbobjc.m */,
+				CE90C7421D59696F00B984EC /* Platform.pbobjc.h */,
+				CE90C7431D59696F00B984EC /* Platform.pbobjc.m */,
+				CE90C7441D59696F00B984EC /* Result.pbobjc.h */,
+				CE90C7451D59696F00B984EC /* Result.pbobjc.m */,
+				CE90C7461D59696F00B984EC /* Social.pbobjc.h */,
+				CE90C7471D59696F00B984EC /* Social.pbobjc.m */,
+				CE90C7481D59696F00B984EC /* Streaming.pbobjc.h */,
+				CE90C7491D59696F00B984EC /* Streaming.pbobjc.m */,
+				CE90C74A1D59696F00B984EC /* Wallet.pbobjc.h */,
+				CE90C74B1D59696F00B984EC /* Wallet.pbobjc.m */,
+			);
+			path = PbModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +370,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE90C70C1D59664D00B984EC /* ViewController.swift in Sources */,
+				CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */,
+				CE90C74E1D59696F00B984EC /* Comment.pbobjc.m in Sources */,
+				CE90C7521D59696F00B984EC /* Login.pbobjc.m in Sources */,
+				CE90C75A1D59696F00B984EC /* Social.pbobjc.m in Sources */,
+				CE90C7541D59696F00B984EC /* News.pbobjc.m in Sources */,
+				CE90C74F1D59696F00B984EC /* Community.pbobjc.m in Sources */,
+				CE90C74C1D59696F00B984EC /* Account.pbobjc.m in Sources */,
+				CE90C75C1D59696F00B984EC /* Wallet.pbobjc.m in Sources */,
+				CE90C7501D59696F00B984EC /* Contact.pbobjc.m in Sources */,
+				CE90C7591D59696F00B984EC /* Result.pbobjc.m in Sources */,
+				CE90C7571D59696F00B984EC /* Payment.pbobjc.m in Sources */,
+				CE90C7581D59696F00B984EC /* Platform.pbobjc.m in Sources */,
+				CE90C74D1D59696F00B984EC /* Chat.pbobjc.m in Sources */,
+				CE90C7531D59696F00B984EC /* Netdisk.pbobjc.m in Sources */,
+				CE90C7551D59696F00B984EC /* Notification.pbobjc.m in Sources */,
 				CE90C70A1D59664D00B984EC /* AppDelegate.swift in Sources */,
+				CE90C7511D59696F00B984EC /* Datapublishing.pbobjc.m in Sources */,
+				CE90C7561D59696F00B984EC /* Oss.pbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +456,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Redfatty/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -356,6 +471,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = Redfatty/BridgeHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,6 +502,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = Redfatty/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -395,6 +512,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = Redfatty/BridgeHeader.h;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
