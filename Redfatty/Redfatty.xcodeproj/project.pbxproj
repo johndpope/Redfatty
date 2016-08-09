@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		1CA7373088B0309CE1602129 /* Pods_Redfatty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AAFD0637642AE2F4EC1082 /* Pods_Redfatty.framework */; };
 		CE244E721D5A22D9000FF226 /* NetworkUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE244E711D5A22D9000FF226 /* NetworkUser.swift */; };
+		CE244E741D5A26F3000FF226 /* Alamofire+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE244E731D5A26F3000FF226 /* Alamofire+Response.swift */; };
+		CE244E761D5A2766000FF226 /* URLDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE244E751D5A2766000FF226 /* URLDefine.swift */; };
 		CE3DB4D31D59EB9D007BF218 /* NetworkConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB4D21D59EB9D007BF218 /* NetworkConst.swift */; };
 		CE3DB4D91D59F76B007BF218 /* Protobuf+Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB4D81D59F76B007BF218 /* Protobuf+Parse.swift */; };
-		CE3DB4DB1D5A0DAE007BF218 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB4DA1D5A0DAE007BF218 /* NetworkManager.swift */; };
 		CE3DB4DD1D5A0FA3007BF218 /* NetworkLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB4DC1D5A0FA3007BF218 /* NetworkLogin.swift */; };
 		CE90C70A1D59664D00B984EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7091D59664D00B984EC /* AppDelegate.swift */; };
 		CE90C70C1D59664D00B984EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C70B1D59664D00B984EC /* ViewController.swift */; };
@@ -52,9 +53,10 @@
 		ABD24DAE0E7505B8BB1E5F9C /* Pods-Redfatty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redfatty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redfatty/Pods-Redfatty.release.xcconfig"; sourceTree = "<group>"; };
 		C0AAFD0637642AE2F4EC1082 /* Pods_Redfatty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Redfatty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE244E711D5A22D9000FF226 /* NetworkUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUser.swift; sourceTree = "<group>"; };
+		CE244E731D5A26F3000FF226 /* Alamofire+Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Response.swift"; sourceTree = "<group>"; };
+		CE244E751D5A2766000FF226 /* URLDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLDefine.swift; sourceTree = "<group>"; };
 		CE3DB4D21D59EB9D007BF218 /* NetworkConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConst.swift; sourceTree = "<group>"; };
 		CE3DB4D81D59F76B007BF218 /* Protobuf+Parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protobuf+Parse.swift"; sourceTree = "<group>"; };
-		CE3DB4DA1D5A0DAE007BF218 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CE3DB4DC1D5A0FA3007BF218 /* NetworkLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogin.swift; sourceTree = "<group>"; };
 		CE90C7061D59664D00B984EC /* Redfatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redfatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90C7091D59664D00B984EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,8 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				CE3DB4D81D59F76B007BF218 /* Protobuf+Parse.swift */,
+				CE244E731D5A26F3000FF226 /* Alamofire+Response.swift */,
 				CE3DB4D21D59EB9D007BF218 /* NetworkConst.swift */,
-				CE3DB4DA1D5A0DAE007BF218 /* NetworkManager.swift */,
+				CE244E751D5A2766000FF226 /* URLDefine.swift */,
 				CE3DB4DC1D5A0FA3007BF218 /* NetworkLogin.swift */,
 				CE244E711D5A22D9000FF226 /* NetworkUser.swift */,
 			);
@@ -392,11 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE244E761D5A2766000FF226 /* URLDefine.swift in Sources */,
 				CE90C70C1D59664D00B984EC /* ViewController.swift in Sources */,
 				CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */,
 				CE3DB4D31D59EB9D007BF218 /* NetworkConst.swift in Sources */,
 				CE90C74E1D59696F00B984EC /* Comment.pbobjc.m in Sources */,
-				CE3DB4DB1D5A0DAE007BF218 /* NetworkManager.swift in Sources */,
 				CE90C7521D59696F00B984EC /* Login.pbobjc.m in Sources */,
 				CE3DB4D91D59F76B007BF218 /* Protobuf+Parse.swift in Sources */,
 				CE90C75A1D59696F00B984EC /* Social.pbobjc.m in Sources */,
@@ -406,6 +409,7 @@
 				CE90C74C1D59696F00B984EC /* Account.pbobjc.m in Sources */,
 				CE90C75C1D59696F00B984EC /* Wallet.pbobjc.m in Sources */,
 				CE90C7501D59696F00B984EC /* Contact.pbobjc.m in Sources */,
+				CE244E741D5A26F3000FF226 /* Alamofire+Response.swift in Sources */,
 				CE90C7591D59696F00B984EC /* Result.pbobjc.m in Sources */,
 				CE90C7571D59696F00B984EC /* Payment.pbobjc.m in Sources */,
 				CE90C7581D59696F00B984EC /* Platform.pbobjc.m in Sources */,
