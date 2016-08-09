@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target "Redfatty" do
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod 'Protobuf'
+    pod 'ProtocolBuffers-Swift'
+end

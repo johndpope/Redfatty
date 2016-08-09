@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Kingfisher (2.4.2)
+  - Protobuf (3.0.0)
+  - ProtocolBuffers-Swift (2.4.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - Protobuf
+  - ProtocolBuffers-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Kingfisher: 05bf8d04408aaa70fcd2c8c81b9f1d0f1ad313dd
+  Protobuf: c032ce1bdf7a266acfd640fbfd8bdb166127c7f5
+  ProtocolBuffers-Swift: de135396943077c5b84aee18df26b3fa6b47fb29
+
+PODFILE CHECKSUM: 02c6ed9127dc3b5367c7b6da4a80360935d58a03
+
+COCOAPODS: 1.0.1

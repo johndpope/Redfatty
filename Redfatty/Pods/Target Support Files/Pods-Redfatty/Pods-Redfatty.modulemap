@@ -1,0 +1,6 @@
+framework module Pods_Redfatty {
+  umbrella header "Pods-Redfatty-umbrella.h"
+
+  export *
+  module * { export * }
+}
