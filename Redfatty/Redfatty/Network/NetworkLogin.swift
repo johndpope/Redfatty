@@ -16,9 +16,26 @@ class NetworkLogin: NSObject {
         
         let params = ["phonecode":phoneNum,"type":"\(type)"]
         Alamofire.request(.GET, URL_Login_SmsCode, parameters: params).responseData { response in
+            
+            let pMsg = PMessage.mwParseData(response.data!)
+            let successResult = PResult.mwParseData(pMsg!.data_p)
+            completion(successResult!)
+        }
+        
+    }
+    
+    class func getSmsCode(phoneNum: String, type: Int, success: PResult -> Void, failure: NSError -> Void) {
+        
+        let params = ["phonecode":phoneNum,"type":"\(type)"]
+        
+        Alamofire.request(.GET, URL_Login_SmsCode, parameters: params).responseData { response in
+            
+            let error = response.result.error
+            failure(error!)
+            
             let pMsg = PMessage.mwParseData(response.data)
-            let result = PResult.mwParseData(pMsg.data_p)
-            completion(result)
+            let successResult = PResult.mwParseData(pMsg!.data_p)
+            success(successResult!)
         }
         
     }

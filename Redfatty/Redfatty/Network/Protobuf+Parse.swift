@@ -15,13 +15,18 @@ extension PMessage {
 
 extension GPBMessage {
     
-    class func mwParseData(sourceData: NSData) -> Self? {
-
-        do {
-            let pbObj = try self.parseFromData(sourceData)
-            return pbObj
-        } catch {
-            return nil
+    class func mwParseData(sourceData: NSData?) -> Self? {
+        
+        if let tempData = sourceData {
+            
+            do {
+                let pbObj = try self.parseFromData(tempData)
+                return pbObj
+            } catch {
+                return nil
+            }
         }
+        
+        return nil
     }
 }
