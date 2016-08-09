@@ -17,14 +17,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //获取验证码
-        NetworkManager.getSmsCode("+8613302431090", type: 1) { result in
+        NetworkLogin.getSmsCode("+863620946464", type: 1, success: { result in
             
-            print(result.errorMsg)
-            print(result.errorCode)
-            print(result.extraInfo)
+                        print(result.errorMsg)
+                        print(result.errorCode)
+                        print(result.extraInfo)
+            }) { error in
+                
         }
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
