@@ -9,10 +9,6 @@
 import Foundation
 import Protobuf
 
-extension PMessage {
-//    class func mwParseData(soureceData: NSData, pbClass: AnyClass) ->
-}
-
 extension GPBMessage {
     
     class func mwParseData(sourceData: NSData?) -> Self? {
