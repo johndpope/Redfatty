@@ -240,14 +240,14 @@
 			isa = PBXGroup;
 			children = (
 				CE6A06591D5ABB0B00D7DD9A /* Base */,
-				CE90C7291D59696F00B984EC /* PbModel */,
 				CE3DB4D11D59EB54007BF218 /* Network */,
+				CE90C7291D59696F00B984EC /* PbModel */,
+				CE6A06631D5ABB7B00D7DD9A /* Login */,
+				CE6A06641D5ABB8200D7DD9A /* Weibo */,
 				CE90C7091D59664D00B984EC /* AppDelegate.swift */,
 				CE90C70B1D59664D00B984EC /* ViewController.swift */,
 				CE90C75D1D596A8C00B984EC /* BridgeHeader.h */,
 				CE90C75E1D596B8300B984EC /* PrefixHeader.pch */,
-				CE6A06641D5ABB8200D7DD9A /* Weibo */,
-				CE6A06631D5ABB7B00D7DD9A /* Login */,
 				CE90C70D1D59664D00B984EC /* Main.storyboard */,
 				CE90C7101D59664D00B984EC /* Assets.xcassets */,
 				CE90C7121D59664D00B984EC /* LaunchScreen.storyboard */,

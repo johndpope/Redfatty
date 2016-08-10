@@ -12,7 +12,7 @@ import Alamofire
 
 class NetworkManager: NSObject {
 
-    class func handlerResponse(response: Response<NSData, NSError>, responseSuccess: PMessage? -> Void, networkError: NSError? -> Void ) {
+    class func handleResponse(response: Response<NSData, NSError>, responseSuccess: PMessage? -> Void, networkError: NSError? -> Void ) {
         
         //1.网络错误
         if let error = response.result.error {
