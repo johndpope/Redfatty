@@ -20,15 +20,24 @@ extension NetworkManager {
         
         Alamofire.request(.GET, URL_Login_SmsCode, parameters: params).responseData { response in
             
-            self.handleResponse(response, responseSuccess: { pMsg in
-                
-                let presult = PResult.mwParseData(pMsg?.data_p)
-                success(presult)
-                
-                }, networkError: { error in
-                    
-                    failure(error)
-            })
+//            self.handleResponse(response, responseSuccess: { pMsg in
+//                
+//                let presult = PResult.mwParseData(pMsg?.data_p)
+//                success(presult)
+//                
+//                }, networkError: { error in
+//                    
+//                    failure(error)
+//            })
+            
+            let responseResult = self.handleResponse(response)
+            if let error = responseResult.networkError {
+                failure(error)
+                return
+            }
+            
+            success(PResult.mwParseData(responseResult.successPMsg?.data_p))
+            
         }
     }
     
