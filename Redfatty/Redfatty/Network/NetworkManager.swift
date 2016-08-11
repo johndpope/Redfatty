@@ -12,6 +12,8 @@ import Alamofire
 
 class NetworkManager: NSObject {
 
+    //MARK: - 初步解析, 解析出NSData,和网络错误NSError
+    //MARK: 初步解析方法一:
     class func handleResponse(response: Response<NSData, NSError>, responseSuccess: PMessage? -> Void, networkError: NSError? -> Void ) {
         
         //1.网络错误
@@ -39,6 +41,7 @@ class NetworkManager: NSObject {
         responseSuccess(nil)
     }
     
+    //MARK: 初步解析方法二:
     class func handleResponse(response: Response<NSData, NSError>) -> (successPMsg: PMessage?, networkError: NSError?) {
         
         //1.网络失败

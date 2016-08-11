@@ -18,6 +18,8 @@ extension NetworkManager {
         
         let params = ["phonecode":phoneNum,"type":"\(type)"]
         
+        
+        
         Alamofire.request(.GET, URL_Login_SmsCode, parameters: params).responseData { response in
             
 //            self.handleResponse(response, responseSuccess: { pMsg in
