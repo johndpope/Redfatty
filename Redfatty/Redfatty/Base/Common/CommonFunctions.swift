@@ -18,6 +18,14 @@ func RGBA(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) -> UIColo
     return UIColor.init(red: red / 255.0, green: green / 255.0, blue: blue / 255.0, alpha: alpha)
 }
 
+func color(r r: CGFloat, g: CGFloat, b: CGFloat) -> UIColor {
+    return UIColor.init(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: 1.0)
+}
+
+func color(r r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat) -> UIColor {
+    return UIColor.init(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: a)
+}
+
 func Font(size: CGFloat) -> UIFont {
     return UIFont.systemFontOfSize(size)
 }

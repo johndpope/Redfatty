@@ -17,14 +17,14 @@ class WeiboHeaderView: UIView {
     
     lazy var userNameLabel: UILabel = {
         var lable = UILabel()
-        lable.textColor = RGB(0,0,225) //UIColor.blueColor()
-        lable.font = Font(14)
+        lable.textColor = mw_color(110, 110, 100)
+        lable.font = mw_font(14)
         return lable
     }()
     
     lazy var locationBtn: UIButton  = {
         var btn = UIButton.init(type: .Custom)
-        
+        btn.backgroundColor = mw_color(111, 111, 111)
         return btn
     }()
 
