@@ -4,6 +4,9 @@ PODS:
   - Protobuf (3.0.0)
   - ProtocolBuffers-Swift (2.4.4)
   - SnapKit (0.21.1)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
 
 DEPENDENCIES:
   - Alamofire
@@ -11,6 +14,7 @@ DEPENDENCIES:
   - Protobuf
   - ProtocolBuffers-Swift
   - SnapKit
+  - YYKit
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
@@ -18,7 +22,8 @@ SPEC CHECKSUMS:
   Protobuf: c032ce1bdf7a266acfd640fbfd8bdb166127c7f5
   ProtocolBuffers-Swift: de135396943077c5b84aee18df26b3fa6b47fb29
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: c7a380db5f97cddabfec56a072434ee645dee8c8
+PODFILE CHECKSUM: 8d3a195ef739cbbffe9b3bcb2f5454619f29bc30
 
 COCOAPODS: 1.0.1

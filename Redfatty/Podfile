@@ -7,4 +7,5 @@ target "Redfatty" do
     pod 'Protobuf'
     pod 'ProtocolBuffers-Swift'
     pod 'SnapKit'
+    pod 'YYKit'
 end

@@ -183,6 +183,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CE1854051D63EF7800FFC5D7 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
 		CE3DB4D11D59EB54007BF218 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +327,7 @@
 		CE90C7081D59664D00B984EC /* Redfatty */ = {
 			isa = PBXGroup;
 			children = (
+				CE1854051D63EF7800FFC5D7 /* YYKit */,
 				CEF82D3D1D5D51A2005C56F4 /* MWHelperKit */,
 				CEE002251D5C7088000EE656 /* TempTest */,
 				CE6A06591D5ABB0B00D7DD9A /* Base */,
