@@ -46,6 +46,7 @@
 		CE90C75A1D59696F00B984EC /* Social.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7471D59696F00B984EC /* Social.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7491D59696F00B984EC /* Streaming.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE90C75C1D59696F00B984EC /* Wallet.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C74B1D59696F00B984EC /* Wallet.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE9FFD381D66D69000C31D4F /* CommonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFD371D66D69000C31D4F /* CommonConstant.swift */; };
 		CEC73D471D5AA9BB0021F23C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D461D5AA9BB0021F23C /* NetworkManager.swift */; };
 		CEC73D4B1D5AAD7C0021F23C /* NetworkManager+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D4A1D5AAD7C0021F23C /* NetworkManager+Login.swift */; };
 		CEC73D4E1D5AB10E0021F23C /* Alamofire+MWAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D4D1D5AB10E0021F23C /* Alamofire+MWAdd.swift */; };
@@ -136,6 +137,7 @@
 		CE90C74B1D59696F00B984EC /* Wallet.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.pbobjc.m; sourceTree = "<group>"; };
 		CE90C75D1D596A8C00B984EC /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		CE90C75E1D596B8300B984EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CE9FFD371D66D69000C31D4F /* CommonConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonConstant.swift; sourceTree = "<group>"; };
 		CEC73D461D5AA9BB0021F23C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CEC73D4A1D5AAD7C0021F23C /* NetworkManager+Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Login.swift"; sourceTree = "<group>"; };
 		CEC73D4D1D5AB10E0021F23C /* Alamofire+MWAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+MWAdd.swift"; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8120241D5C930600CA4A86 /* CommonFunctions.swift */,
+				CE9FFD371D66D69000C31D4F /* CommonConstant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -645,6 +648,7 @@
 				CE90C75A1D59696F00B984EC /* Social.pbobjc.m in Sources */,
 				CE90C7541D59696F00B984EC /* News.pbobjc.m in Sources */,
 				CEDC38931D5C0B1A00B98316 /* LoginPlayerView.swift in Sources */,
+				CE9FFD381D66D69000C31D4F /* CommonConstant.swift in Sources */,
 				CE90C74F1D59696F00B984EC /* Community.pbobjc.m in Sources */,
 				CE90C74C1D59696F00B984EC /* Account.pbobjc.m in Sources */,
 				CE8120221D5C920300CA4A86 /* UIColor+MWAdd.swift in Sources */,
