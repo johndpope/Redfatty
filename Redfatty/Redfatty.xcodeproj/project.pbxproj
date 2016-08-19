@@ -15,7 +15,6 @@
 		CE6A06601D5ABB3400D7DD9A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A065F1D5ABB3400D7DD9A /* BaseView.swift */; };
 		CE6A06621D5ABB5400D7DD9A /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A06611D5ABB5400D7DD9A /* BaseTableViewCell.swift */; };
 		CE6A06661D5ABB9E00D7DD9A /* WeiboMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A06651D5ABB9E00D7DD9A /* WeiboMainViewController.swift */; };
-		CE6A06681D5ABBAB00D7DD9A /* LoginMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A06671D5ABBAB00D7DD9A /* LoginMainViewController.swift */; };
 		CE8120141D5C8F1300CA4A86 /* WeiboTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8120131D5C8F1300CA4A86 /* WeiboTextCell.swift */; };
 		CE8120161D5C8F3900CA4A86 /* WeiboAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8120151D5C8F3900CA4A86 /* WeiboAudioCell.swift */; };
 		CE8120181D5C8F8A00CA4A86 /* WeiboVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8120171D5C8F8A00CA4A86 /* WeiboVideoCell.swift */; };
@@ -50,6 +49,10 @@
 		CEC73D471D5AA9BB0021F23C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D461D5AA9BB0021F23C /* NetworkManager.swift */; };
 		CEC73D4B1D5AAD7C0021F23C /* NetworkManager+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D4A1D5AAD7C0021F23C /* NetworkManager+Login.swift */; };
 		CEC73D4E1D5AB10E0021F23C /* Alamofire+MWAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D4D1D5AB10E0021F23C /* Alamofire+MWAdd.swift */; };
+		CECD6E941D66A71A008E19C2 /* LoginWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD6E921D66A71A008E19C2 /* LoginWelcomeViewController.swift */; };
+		CECD6E951D66A71A008E19C2 /* LoginWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD6E931D66A71A008E19C2 /* LoginWelcomeViewController.xib */; };
+		CECD6E981D66A79B008E19C2 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD6E971D66A79B008E19C2 /* Image.xcassets */; };
+		CECD6E9A1D66AC2F008E19C2 /* LoginTestVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CECD6E991D66AC2F008E19C2 /* LoginTestVideo.mp4 */; };
 		CEDC38931D5C0B1A00B98316 /* LoginPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC38921D5C0B1A00B98316 /* LoginPlayerView.swift */; };
 		CEE002271D5C70DD000EE656 /* CookieTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE002261D5C70DD000EE656 /* CookieTest.swift */; };
 		CEF82D451D5D5539005C56F4 /* FuncUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF82D441D5D5539005C56F4 /* FuncUIKit.swift */; };
@@ -79,7 +82,6 @@
 		CE6A065F1D5ABB3400D7DD9A /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		CE6A06611D5ABB5400D7DD9A /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		CE6A06651D5ABB9E00D7DD9A /* WeiboMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboMainViewController.swift; sourceTree = "<group>"; };
-		CE6A06671D5ABBAB00D7DD9A /* LoginMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMainViewController.swift; sourceTree = "<group>"; };
 		CE8120131D5C8F1300CA4A86 /* WeiboTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboTextCell.swift; sourceTree = "<group>"; };
 		CE8120151D5C8F3900CA4A86 /* WeiboAudioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboAudioCell.swift; sourceTree = "<group>"; };
 		CE8120171D5C8F8A00CA4A86 /* WeiboVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiboVideoCell.swift; sourceTree = "<group>"; };
@@ -137,6 +139,10 @@
 		CEC73D461D5AA9BB0021F23C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CEC73D4A1D5AAD7C0021F23C /* NetworkManager+Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Login.swift"; sourceTree = "<group>"; };
 		CEC73D4D1D5AB10E0021F23C /* Alamofire+MWAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+MWAdd.swift"; sourceTree = "<group>"; };
+		CECD6E921D66A71A008E19C2 /* LoginWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWelcomeViewController.swift; sourceTree = "<group>"; };
+		CECD6E931D66A71A008E19C2 /* LoginWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWelcomeViewController.xib; sourceTree = "<group>"; };
+		CECD6E971D66A79B008E19C2 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		CECD6E991D66AC2F008E19C2 /* LoginTestVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoginTestVideo.mp4; sourceTree = "<group>"; };
 		CEDC38921D5C0B1A00B98316 /* LoginPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPlayerView.swift; sourceTree = "<group>"; };
 		CEE002261D5C70DD000EE656 /* CookieTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookieTest.swift; sourceTree = "<group>"; };
 		CEF82D441D5D5539005C56F4 /* FuncUIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncUIKit.swift; sourceTree = "<group>"; };
@@ -246,7 +252,6 @@
 				CEDC388E1D5C0AC500B98316 /* Model */,
 				CEDC388D1D5C0AA700B98316 /* View */,
 				CEDC388C1D5C0A9A00B98316 /* Controller */,
-				CE6A06671D5ABBAB00D7DD9A /* LoginMainViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 		CE90C7081D59664D00B984EC /* Redfatty */ = {
 			isa = PBXGroup;
 			children = (
+				CECD6E961D66A771008E19C2 /* Resources */,
 				CE1854051D63EF7800FFC5D7 /* YYKit */,
 				CEF82D3D1D5D51A2005C56F4 /* MWHelperKit */,
 				CEE002251D5C7088000EE656 /* TempTest */,
@@ -397,9 +403,20 @@
 			path = PbModel;
 			sourceTree = "<group>";
 		};
+		CECD6E961D66A771008E19C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECD6E991D66AC2F008E19C2 /* LoginTestVideo.mp4 */,
+				CECD6E971D66A79B008E19C2 /* Image.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CEDC388C1D5C0A9A00B98316 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CECD6E921D66A71A008E19C2 /* LoginWelcomeViewController.swift */,
+				CECD6E931D66A71A008E19C2 /* LoginWelcomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -540,8 +557,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE90C7141D59664D00B984EC /* LaunchScreen.storyboard in Resources */,
+				CECD6E9A1D66AC2F008E19C2 /* LoginTestVideo.mp4 in Resources */,
 				CE90C7111D59664D00B984EC /* Assets.xcassets in Resources */,
+				CECD6E981D66A79B008E19C2 /* Image.xcassets in Resources */,
 				CE90C70F1D59664D00B984EC /* Main.storyboard in Resources */,
+				CECD6E951D66A71A008E19C2 /* LoginWelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +629,7 @@
 			files = (
 				CE244E761D5A2766000FF226 /* URLDefine.swift in Sources */,
 				CE6A06661D5ABB9E00D7DD9A /* WeiboMainViewController.swift in Sources */,
+				CECD6E941D66A71A008E19C2 /* LoginWelcomeViewController.swift in Sources */,
 				CE90C70C1D59664D00B984EC /* ViewController.swift in Sources */,
 				CE8120251D5C930600CA4A86 /* CommonFunctions.swift in Sources */,
 				CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */,
@@ -625,7 +646,6 @@
 				CE90C7541D59696F00B984EC /* News.pbobjc.m in Sources */,
 				CEDC38931D5C0B1A00B98316 /* LoginPlayerView.swift in Sources */,
 				CE90C74F1D59696F00B984EC /* Community.pbobjc.m in Sources */,
-				CE6A06681D5ABBAB00D7DD9A /* LoginMainViewController.swift in Sources */,
 				CE90C74C1D59696F00B984EC /* Account.pbobjc.m in Sources */,
 				CE8120221D5C920300CA4A86 /* UIColor+MWAdd.swift in Sources */,
 				CE81201C1D5C904A00CA4A86 /* WeiboHeaderView.swift in Sources */,

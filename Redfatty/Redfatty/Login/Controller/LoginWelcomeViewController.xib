@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginWelcomeViewController" customModule="Redfatty" customModuleProvider="target">
+            <connections>
+                <outlet property="ipBtn" destination="LHR-Dt-x6v" id="suI-xb-ZUY"/>
+                <outlet property="languageBtn" destination="OpO-KX-7zG" id="4J4-sl-fJ3"/>
+                <outlet property="loginBtn" destination="1XT-hZ-pdK" id="Ms8-u5-Zzu"/>
+                <outlet property="registerBtn" destination="T4S-PE-g0d" id="5uz-sI-bRJ"/>
+                <outlet property="view" destination="zEd-ut-4Bj" id="SKj-Pz-Q3q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="zEd-ut-4Bj">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4S-PE-g0d">
+                    <rect key="frame" x="15" y="552" width="163" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="iU6-7F-mHU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localText" value="mobile_register_model"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickRegisterBtn:" destination="-1" eventType="touchUpInside" id="PXY-e3-aDc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XT-hZ-pdK">
+                    <rect key="frame" x="198" y="552" width="162" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="gff-Jd-hKW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localText" value="login"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickLoginBtn:" destination="-1" eventType="touchUpInside" id="oLS-MT-jpa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJq-dY-M4e">
+                    <rect key="frame" x="13" y="32" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="kkU-Su-2Jo"/>
+                        <constraint firstAttribute="width" constant="44" id="o1m-jt-NhQ"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="icon_backtonavigation"/>
+                    <state key="selected" backgroundImage="icon_backtonavigation_click"/>
+                    <connections>
+                        <action selector="clickGuideBtn:" destination="-1" eventType="touchUpInside" id="2Yn-HI-sQA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZd-4R-BxG">
+                    <rect key="frame" x="318" y="32" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="776-38-J2m"/>
+                        <constraint firstAttribute="width" constant="44" id="wut-iW-MxQ"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="icon_lookaround"/>
+                    <state key="selected" backgroundImage="icon_lookaround_click"/>
+                    <connections>
+                        <action selector="clickSkipBtn:" destination="-1" eventType="touchUpInside" id="MZI-eS-wxY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHR-Dt-x6v">
+                    <rect key="frame" x="164" y="144" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="clickIpBtn:" destination="-1" eventType="touchUpInside" id="hOb-Ko-j41"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpO-KX-7zG">
+                    <rect key="frame" x="137" y="612" width="100" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6ko-yD-6d2"/>
+                        <constraint firstAttribute="width" constant="100" id="z3U-Yo-sDH"/>
+                    </constraints>
+                    <state key="normal" title="语言设置">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localText" value="login_language_setting"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickLanguageBtn:" destination="-1" eventType="touchUpInside" id="giO-pi-smo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="LHR-Dt-x6v" firstAttribute="top" secondItem="zEd-ut-4Bj" secondAttribute="top" constant="144" id="2AO-QY-SAv"/>
+                <constraint firstItem="1XT-hZ-pdK" firstAttribute="leading" secondItem="T4S-PE-g0d" secondAttribute="trailing" constant="20" id="4H1-bf-bXl"/>
+                <constraint firstItem="LHR-Dt-x6v" firstAttribute="centerX" secondItem="zEd-ut-4Bj" secondAttribute="centerX" id="763-AU-u6T"/>
+                <constraint firstItem="tJq-dY-M4e" firstAttribute="leading" secondItem="zEd-ut-4Bj" secondAttribute="leading" constant="13" id="84p-Ep-EuS"/>
+                <constraint firstItem="OpO-KX-7zG" firstAttribute="centerX" secondItem="zEd-ut-4Bj" secondAttribute="centerX" id="8Ga-JF-MPo"/>
+                <constraint firstAttribute="bottom" secondItem="OpO-KX-7zG" secondAttribute="bottom" constant="15" id="GTp-QQ-0JB"/>
+                <constraint firstItem="T4S-PE-g0d" firstAttribute="leading" secondItem="zEd-ut-4Bj" secondAttribute="leading" constant="15" id="Lh4-IN-xCT"/>
+                <constraint firstAttribute="bottom" secondItem="T4S-PE-g0d" secondAttribute="bottom" constant="75" id="MJp-7l-VKY"/>
+                <constraint firstAttribute="trailing" secondItem="1XT-hZ-pdK" secondAttribute="trailing" constant="15" id="Xgo-p8-cC9"/>
+                <constraint firstItem="1XT-hZ-pdK" firstAttribute="width" secondItem="T4S-PE-g0d" secondAttribute="width" id="gWU-MK-fIF"/>
+                <constraint firstItem="jZd-4R-BxG" firstAttribute="top" secondItem="zEd-ut-4Bj" secondAttribute="top" constant="32" id="hH8-Bi-rOB"/>
+                <constraint firstAttribute="bottom" secondItem="1XT-hZ-pdK" secondAttribute="bottom" constant="75" id="oYF-e1-08Q"/>
+                <constraint firstAttribute="trailing" secondItem="jZd-4R-BxG" secondAttribute="trailing" constant="13" id="q2o-lL-BUo"/>
+                <constraint firstItem="tJq-dY-M4e" firstAttribute="top" secondItem="zEd-ut-4Bj" secondAttribute="top" constant="32" id="vgt-xL-GFK"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="306.5" y="418.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_backtonavigation" width="44" height="44"/>
+        <image name="icon_backtonavigation_click" width="44" height="44"/>
+        <image name="icon_lookaround" width="44" height="44"/>
+        <image name="icon_lookaround_click" width="44" height="44"/>
+    </resources>
+</document>

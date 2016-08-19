@@ -17,19 +17,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //获取验证码
-        NetworkManager.getSmsCode("+8613620946464", type: 1, success: { result in
-            
-            if result == nil {
-                return
-            }
-            
-            print(result!.errorMsg)
-            print(result!.errorCode)
-            print(result!.extraInfo)
-            
-            }) { error in
-                
-        }
+//        NetworkManager.getSmsCode("+8613620946464", type: 1, success: { result in
+//            
+//            if result == nil {
+//                return
+//            }
+//            
+//            print(result!.errorMsg)
+//            print(result!.errorCode)
+//            print(result!.extraInfo)
+//            
+//            }) { error in
+//                
+//        }
+        
+        let playView = LoginPlayerView.init(frame: UIScreen.mainScreen().bounds)
+        view.addSubview(playView)
     }
 
     override func didReceiveMemoryWarning() {
