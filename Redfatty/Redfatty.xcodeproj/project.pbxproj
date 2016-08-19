@@ -47,6 +47,9 @@
 		CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7491D59696F00B984EC /* Streaming.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE90C75C1D59696F00B984EC /* Wallet.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90C74B1D59696F00B984EC /* Wallet.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE9FFD381D66D69000C31D4F /* CommonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFD371D66D69000C31D4F /* CommonConstant.swift */; };
+		CE9FFD3C1D66FD3600C31D4F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFD3B1D66FD3600C31D4F /* UserInfo.swift */; };
+		CE9FFD3E1D66FF8200C31D4F /* UIViewController+MWAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFD3D1D66FF8200C31D4F /* UIViewController+MWAdd.swift */; };
+		CE9FFD401D67024C00C31D4F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFD3F1D67024C00C31D4F /* MainTabBarController.swift */; };
 		CEC73D471D5AA9BB0021F23C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D461D5AA9BB0021F23C /* NetworkManager.swift */; };
 		CEC73D4B1D5AAD7C0021F23C /* NetworkManager+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D4A1D5AAD7C0021F23C /* NetworkManager+Login.swift */; };
 		CEC73D4E1D5AB10E0021F23C /* Alamofire+MWAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73D4D1D5AB10E0021F23C /* Alamofire+MWAdd.swift */; };
@@ -138,6 +141,9 @@
 		CE90C75D1D596A8C00B984EC /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		CE90C75E1D596B8300B984EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CE9FFD371D66D69000C31D4F /* CommonConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonConstant.swift; sourceTree = "<group>"; };
+		CE9FFD3B1D66FD3600C31D4F /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		CE9FFD3D1D66FF8200C31D4F /* UIViewController+MWAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MWAdd.swift"; sourceTree = "<group>"; };
+		CE9FFD3F1D67024C00C31D4F /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CEC73D461D5AA9BB0021F23C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CEC73D4A1D5AAD7C0021F23C /* NetworkManager+Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Login.swift"; sourceTree = "<group>"; };
 		CEC73D4D1D5AB10E0021F23C /* Alamofire+MWAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+MWAdd.swift"; sourceTree = "<group>"; };
@@ -308,6 +314,7 @@
 			children = (
 				CE8120241D5C930600CA4A86 /* CommonFunctions.swift */,
 				CE9FFD371D66D69000C31D4F /* CommonConstant.swift */,
+				CE9FFD3B1D66FD3600C31D4F /* UserInfo.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -346,6 +353,7 @@
 				CE6A06641D5ABB8200D7DD9A /* Weibo */,
 				CE90C7091D59664D00B984EC /* AppDelegate.swift */,
 				CE90C70B1D59664D00B984EC /* ViewController.swift */,
+				CE9FFD3F1D67024C00C31D4F /* MainTabBarController.swift */,
 				CE90C75D1D596A8C00B984EC /* BridgeHeader.h */,
 				CE90C75E1D596B8300B984EC /* PrefixHeader.pch */,
 				CE90C70D1D59664D00B984EC /* Main.storyboard */,
@@ -461,6 +469,7 @@
 			children = (
 				CEF82D461D5D555F005C56F4 /* UIView+MWAdd.swift */,
 				CEF82D4E1D5D62BF005C56F4 /* UIButton+MWAdd.swift */,
+				CE9FFD3D1D66FF8200C31D4F /* UIViewController+MWAdd.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -632,8 +641,10 @@
 			files = (
 				CE244E761D5A2766000FF226 /* URLDefine.swift in Sources */,
 				CE6A06661D5ABB9E00D7DD9A /* WeiboMainViewController.swift in Sources */,
+				CE9FFD401D67024C00C31D4F /* MainTabBarController.swift in Sources */,
 				CECD6E941D66A71A008E19C2 /* LoginWelcomeViewController.swift in Sources */,
 				CE90C70C1D59664D00B984EC /* ViewController.swift in Sources */,
+				CE9FFD3C1D66FD3600C31D4F /* UserInfo.swift in Sources */,
 				CE8120251D5C930600CA4A86 /* CommonFunctions.swift in Sources */,
 				CE90C75B1D59696F00B984EC /* Streaming.pbobjc.m in Sources */,
 				CE3DB4D31D59EB9D007BF218 /* NetworkConst.swift in Sources */,
@@ -656,6 +667,7 @@
 				CE90C75C1D59696F00B984EC /* Wallet.pbobjc.m in Sources */,
 				CEF82D451D5D5539005C56F4 /* FuncUIKit.swift in Sources */,
 				CE90C7501D59696F00B984EC /* Contact.pbobjc.m in Sources */,
+				CE9FFD3E1D66FF8200C31D4F /* UIViewController+MWAdd.swift in Sources */,
 				CEF82D471D5D555F005C56F4 /* UIView+MWAdd.swift in Sources */,
 				CEF82D491D5D5E4D005C56F4 /* FuncFoundation.swift in Sources */,
 				CEF82D4F1D5D62BF005C56F4 /* UIButton+MWAdd.swift in Sources */,

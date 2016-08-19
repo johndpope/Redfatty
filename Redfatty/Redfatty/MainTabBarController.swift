@@ -1,27 +1,27 @@
 //
-//  BaseViewController.swift
+//  MainTabBarController.swift
 //  Redfatty
 //
-//  Created by huangJiong on 16/8/10.
+//  Created by huangJiong on 16/8/19.
 //  Copyright © 2016年 miwu. All rights reserved.
 //
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        hidesBottomBarWhenPushed = true 
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        initViewControllers()
     }
     
+    func initViewControllers() {
+        
+        let weiboCtrl = WeiboMainViewController.init()
+        let weiboNav = UINavigationController.init(rootViewController: weiboCtrl)
+        addChildViewController(weiboNav)
+    }
 
     /*
     // MARK: - Navigation

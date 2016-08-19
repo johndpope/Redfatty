@@ -21,6 +21,16 @@ class LoginWelcomeViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(animated: Bool) {
+         super.viewWillAppear(animated)
+        navigationController?.navigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBarHidden = false
+    }
+    
     //MARK: - 按钮点击事件
 
     @IBAction func clickGuideBtn(sender: UIButton) {

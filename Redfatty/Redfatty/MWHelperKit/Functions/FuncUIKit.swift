@@ -48,3 +48,9 @@ func mw_fontBold(size: CGFloat) -> UIFont {
 func mw_font(size size: CGFloat, weight: CGFloat) -> UIFont {
     return UIFont.systemFontOfSize(size, weight: weight)
 }
+
+func mw_bundleForClass(classStr:String) -> NSBundle? {
+    
+    let bundle = NSBundle(forClass: NSClassFromString(classStr)!)
+    return bundle
+}

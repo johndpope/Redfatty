@@ -12,8 +12,16 @@ class WeiboMainViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        checkLogin()
 
-        // Do any additional setup after loading the view.
+        title = "最新话题"
+    }
+    
+    func checkLogin() {
+        
+        let loginCtrl = LoginWelcomeViewController(nibName: "LoginWelcomeViewController", bundle: nil)
+        navigationController?.pushViewController(loginCtrl, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

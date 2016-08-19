@@ -41,3 +41,5 @@ func Font(size: CGFloat, _ weight: CGFloat) -> UIFont {
 func Image(imgName: String) -> UIImage {
     return UIImage.init(named: imgName)!
 }
+
+
