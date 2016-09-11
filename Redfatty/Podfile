@@ -8,4 +8,5 @@ target "Redfatty" do
     pod 'ProtocolBuffers-Swift'
     pod 'SnapKit'
     pod 'YYKit'
+    pod 'MJRefresh'
 end
